@@ -1,0 +1,21 @@
+.wrap {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 72px;
+    padding: 0 24px;
+    background-color: var(--gray0);
+    border: 1px solid var(--gray100);
+    z-index: 10;
+}
+
+.logowrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
