@@ -1,23 +1,8 @@
 <h1 align="center">
-  Danmin Gatsby Blog Template
+  Gatsby Blog Template
 </h1>
 
-<p align="center">
-  <a href="https://github.com/danmin20/danmin-gatsby-blog-template/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-0BSD-blue.svg" alt="Danmin Gatsby Blog Template is released under the 0BSD license." />
-  </a>
-</p>
-
-**Demo Website**: [**jeong-min.com**](https://www.jeong-min.com/)  
 **Open source Code**: [**Github**](https://github.com/danmin20/danmin-gatsby-blog-template)
-
-&nbsp;
-
-## 👋 소개
-
-X로그, X스토리, X런치, X디엄.. 안 써본 블로그 플랫폼이 없을 정도로 유목민 생활을 해왔는데요, 결국 돌고 돌아 블로그 템플릿을 만들게 되었습니다!
-
-이 템플릿의 베이스가 되어준 [줌코딩 님의 블로그 템플릿](https://github.com/zoomkoding/zoomkoding-gatsby-blog)도 많은 관심 부탁드리며, 흔쾌히 커스터마이징을 허락해주신 제 사우님, [줌코딩](https://zoomkoding.com/) 님께 감사드립니다! 🙇
 
 &nbsp;
 
@@ -76,10 +61,10 @@ $ yarn dev
 ### 1. 블로그 기본 정보
 
 ```ts
-title: `jeong-min.com`,
-description: `개발자 단민`,
+title: `title`,
+description: `description`,
 language: `ko`,
-siteUrl: `https://jeong-min.com/`,
+siteUrl: `https://sososk.so`,
 ogImage: `/og-image.png` // 공유할 때 보이는 미리보기 이미지
 ```
 
@@ -94,10 +79,9 @@ ogImage: `/og-image.png` // 공유할 때 보이는 미리보기 이미지
 ```ts
 comments: {
     utterances: {
-        repo: '' // danmin20/danmin-gatsby-blog`,
+        repo: '' ,
     },
 }
-
 ```
 
 &nbsp;
@@ -108,23 +92,23 @@ comments: {
 
 ```ts
 author: {
-    name: `이정민`,
-    nickname: `단민`,
+    name: `name`,
+    nickname: `nickname`,
     stack: ['Frontend', 'React', 'Typescript'],
     bio: {
-      email: `ljm991108@gmail.com`,
-      residence: 'Seoul, South Korea',
-      bachelorDegree: 'Kyunghee Univ. Computer Engineering (2018.03-2022.02)',
+      email: `contact@bluefrog.co.kr`,
+      residence: 'InCheon, Songdo',
+      bachelorDegree: 'bachelorDegree',
     },
     social: {
-      github: `https://github.com/danmin20`,
-      linkedIn: `https://www.linkedin.com/in/jeonming-lee/`,
-      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC%9D%B4%EC%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
+      github: `https://github.com`,
+      linkedIn: `https://www.linkedin.com/in`,
+      resume: `https://www.figma.com`,
     },
     // 드롭다운으로 보여주고 싶은 추가 링크들
     dropdown: {
-      tistory: 'https://danminblog.tistory.com/',
-      velog: 'https://velog.io/@danmin20',
+      tistory: 'tistory',
+      velog: 'https://velog.io',
     },
 },
 ```
@@ -221,7 +205,7 @@ remittance 정보는 Buy me a coffee 컴포넌트에 사용됩니다.
 ```js
 remittances: {
   toss: {
-    link: 'https://toss.me/danmin',
+    link: 'https://toss.me',
     qrCode: 'toss_qr.svg', // Path to your in the 'assets' folder
   },
   kakaopay: {
@@ -283,7 +267,3 @@ categories: life dev
     ```
 
 &nbsp;
-
-### 💡 문의
-
-질문이 있으시거나 제안하고 싶으신 기능이 있으시다면, 👉 [여기](https://github.com/danmin20/danmin-gatsby-blog-template/issues/1)에 편하게 댓글 남겨주세요! :)
